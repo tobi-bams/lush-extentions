@@ -322,7 +322,7 @@ footer{
     padding-bottom: 0.2em;
 }
 
-label{
+#label{
     text-transform: uppercase;
     font-weight: 600;
     font-size: 0.9em;
@@ -907,5 +907,228 @@ label{
 
 .summaryCheckout p{
     text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Order Page */
+.orderContainer{
+    padding-left: 10em;
+    padding-right: 10em;
+    box-sizing: border-box;
+}
+
+.orderContainer h1{
+    color: #CBA08D;
+    font-size: 4em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.placeOrderBody{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.orderForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.formInput{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 1em;
+}
+
+.labelInput{
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    transform: translateY(90%);
+    transition: 0.5s transform ease-out;
+}
+
+
+.dropdownLabel{
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transform: translateY(60%);
+    transition: 0.5s transform ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formInput input{
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.createAcct{
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    align-items: center;
+}
+
+.createAcct::before{
+    content: '';
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    border: 3px solid #000000;
+    margin-right: 1em;
+}
+
+.createAcct p{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.orderButton button{
+    padding: 1.3em 2em;
+    text-transform: uppercase;
+    border: 2px solid #000000;
+    outline: none;
+    background-color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    cursor: pointer;
+}
+
+.paymentContainer{
+    margin-top: 2.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.paymentText{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.7em;
+}
+
+.radioButton{
+    height: 0.7em;
+    width: 0.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid #000000;
+    margin-right: 1em;
+}
+
+.radioButton::before{
+    content: "";
+    height: 0.4em;
+    width: 0.4em;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.paymentText p{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.paymentImage{
+    display: flex;
+    align-items: center;
+}
+
+.paymentImage img{
+    margin-right: 0.5em;
+}
+
+/* Order Successfully Placed Page */
+.successMassage{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7.5em;
+    margin-bottom: 7.5em;
+    padding-left: 10em;
+    padding-right: 10em;
+    box-sizing: border-box;
+}
+
+.successMassage h1{
+    color: #CBA08D;
+    text-transform: uppercase;
+    font-size: 4.5em;
+    line-height: 1em;
+    padding-right: 3em;
+}
+
+.successMassage p{
+    font-weight: 500;
+    margin-top: 0.5em;
+}
+
+/* Support Page */
+.supportContainer{
+    padding-left: 10em;
+    padding-right: 10em;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.supportContainer h1{
+    color: #CBA08D;
+    font-size: 4em;
+    text-transform: uppercase;
+    margin-top: 1.2em;
+    margin-bottom: 0.7em;
+}
+
+.suportDetailContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.supportForm{
+    width: 50%;
+}
+
+#commentLabel{
+    transform: translateY(310%);
+}
+
+textarea{
+    border: none;
+    outline: none;
+}
+
+.contactInfo{
+    width: 23em;
+    margin-top: 1.5em;
+}
+
+.contactInfo p{
+    font-size: 14px;
+    margin-bottom: 2em;
+}
+
+.contactInfo span{
+    font-weight: 600;
+}
+
+.contactInfo a{
+    color: #000000;
     font-weight: 600;
 }

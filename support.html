@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="./css/style.css">
-    <link type="text/css" rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
-    <title>PLACE ORDER</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="tex/css" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>SUPPORT</title>
 </head>
 <body>
     <header>
@@ -41,10 +41,10 @@
         </nav>
     </header>
     <main>
-        <div class="orderContainer">
-            <h1>Place Order</h1>
-            <div class="placeOrderBody">
-                <form class="orderForm">
+        <div class="supportContainer">
+            <h1>We're Here for you.</h1>
+            <div class="suportDetailContainer">
+                <form class="supportForm">
                     <div class="formInput">
                         <label class="labelInput" for="fname">First Name</label>
                         <input id="fname">
@@ -54,76 +54,28 @@
                         <input id="lname">
                     </div>
                     <div class="formInput">
-                        <label class="labelInput" for="address">Address</label>
-                        <input id="address">
+                        <label class="labelInput" for="emailAddress">Email Address</label>
+                        <input id="emailAddress">
                     </div>
                     <div class="formInput">
-                        <label class="labelInput" for="town">Town/City</label>
-                        <input id="town">
-                    </div>
-                    <div class="formInput">
-                        <div class="dropdownLabel">
-                            <label for="state">State</label>
-                            <img src="./assets/formdropdown.png" alt="Drop Down">
-                        </div>
-                        <input id="state">
-                    </div>
-                    <div class="formInput">
-                        <div class="dropdownLabel">
-                            <label for="country">Country</label>
-                            <img src="./assets/formdropdown.png" alt="Drop Down">
-                        </div>
-                        <input id="country">
-                    </div>
-                    <div class="formInput">
-                        <label class="labelInput" for="orderEmail">Email</label>
-                        <input id="orderEmail">
-                    </div>
-                    <div class="formInput">
-                        <label class="labelInput"for="phone">Phone Number</label>
+                        <label class="labelInput" for="phone">Phone Number (Optional)</label>
                         <input id="phone">
                     </div>
-                    <div class="createAcct">
-                        <p>Create an Account</p>
+                    <div class="formInput">
+                        <label class="labelInput" for="comment" id="commentLabel">Comment</label>
+                        <textarea id="comment" rows="5"></textarea>
                     </div>
                     <div class="orderButton">
-                        <button>Place Order</button>
+                        <button>Send Message</button>
                     </div>
                 </form>
-                <div class="orderfDetails">
-                    <div class="amountSummary">
-                        <div class="summaryRow">
-                            <p class="summaryTitle">Sub-Total</p>
-                            <p class="summaryValue">$125.00</p>
-                        </div>
-                        <div class="summaryRow">
-                            <p class="summaryTitle">Vat (5%)</p>
-                            <p class="summaryValue">$6.25</p>
-                        </div>
-                        <div class="summaryRow">
-                            <p class="summaryTitle">Shipping</p>
-                            <p class="summaryValue">Free</p>
-                        </div>
-                        <div class="summaryTotalContainer">
-                            <div class="summaryTotal">
-                                <p class="summaryTitle">Total</p>
-                            <p class="summaryAmount">$125.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="paymentContainer">
-                        <div class="paymentText">
-                            <div class="radioButton">
-                            </div>
-                            <p>Paystack Debit/Credit Card</p>
-                        </div>
-                        <div class="paymentImage">
-                            <img src="./assets/mastercard.png" alt="Mater card">
-                            <img src="./assets/Paystack Logo.png" alt="Paystack">
-                            <img src="./assets/Verve_Image.png" alt="verve">
-                            <img src="./assets/visa.png"> 
-                        </div>
-                    </div>
+                <div class="contactInfo">
+                <p>We're here for you! </p>
+                <p>Visit us at <span>Lush Beauty Bar, 6 Fola
+                    Osibo, Lekki Phase 1, Lagos. Nigeria</span></p>
+                <p>or send an email to <a href="#">Lushlock Customer Service</a> (lushlocksenquiries@gmail.com)</p>
+                <p>or call (+234) 123-456-7890.</p>
+                <p>Operating hours are Tues – Sun / 10:00 AM – 8:00 PM</p>
                 </div>
             </div>
         </div>
@@ -164,6 +116,6 @@
             </div>
         </div>
     </footer>
-    <script src="./script/order.js"></script>
+    <script src="./script/support.js"></script>
 </body>
 </html>
