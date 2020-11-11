@@ -1,12 +1,16 @@
 body{
     margin: 0 auto;
     padding: 0;
-    font-family: poppins;
+    font-family: Lato, poppins;
 }
 
 h1,h2,h3,p{
     margin: 0;
     padding: 0;
+}
+
+h1{
+    font-family: Passion One, poppins;
 }
 
 header{
@@ -90,6 +94,15 @@ nav{
     transition-timing-function: ease;
 }
 
+.carousal a{
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    align-items: flex-end;
+}
+
 @keyframes slide1{
     0%{
         background-image: url("../assets/model1.png");
@@ -114,7 +127,7 @@ nav{
 .details div{
     display: flex;
     height: 3em;
-    width: 15em;
+    width: 19em;
     border: 3px solid #FFFFFF;
     background-color: none;
     text-align: center;
@@ -223,21 +236,22 @@ main{
     border: 2px solid #CBA08D;
 }
 .italic{
-    font-style: italic;
     font-weight: 400;
-    font-size: 3.2em;
-    margin-bottom: -0.8em;
+    font-size: 4rem;
+    margin-bottom: -0.6em;
     position: relative;
+    font-family: Dancing Script;
 }
 .productType{
-    font-size: 100px;
+    font-size: 8em;
     text-transform: uppercase;
     line-height: 0.9em;
+    font-family: Passion One, poppins;
+    font-weight: 400;
 }
 #mink{
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 120px;
 }
 
 .furtherDetals{
@@ -266,7 +280,7 @@ main{
 .adDisplay2 .productType{
     color: #CBA08D;
     font-weight: 400;
-    font-size: 120px;
+    font-size: 8.5em;
 }
 
 .adDisplay2 .furtherDetals{
@@ -290,18 +304,20 @@ footer{
 
 .firstToKnow{
     text-align: center;
-    font-style: italic;
     font-size: 5em;
-    font-weight: 300;
+    font-weight: 400;
     position: relative;
-    margin-bottom: -1em;
+    margin-bottom: -0.7em;
+    font-family: Dancing Script;
 }
 
 .signupText{
     text-align: center;
-    font-size: 6em;
+    font-size: 8em;
     text-transform: uppercase;
+    font-weight: 400;
     color: #FFFFFF;
+    font-family: Passion One, poppins;
 }
 
 .signupForm{
@@ -327,7 +343,7 @@ footer{
     font-weight: 600;
     font-size: 0.9em;
     transform: translateY(100%);
-    transition: 0.2s transform ease;
+    transition: 0.5s transform ease-out;
     
 }
 
@@ -427,7 +443,8 @@ footer{
 }
 
 .lushLady{
-    font-size: 4rem;
+    font-size: 6rem;
+    font-weight: 400;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-top: 1.5em;
@@ -485,6 +502,9 @@ footer{
     padding-top: 1em;
     color: #000000;
     text-decoration: none;
+    font-family: Passion One;
+    font-weight: 400;
+    font-size: 2em;
 }
 
 .product a{
@@ -492,7 +512,7 @@ footer{
 }
 
 .product small{
-    font-weight: 600;
+    font-weight: 900;
     letter-spacing: 0.2em;
     color: #000000;
 }
@@ -500,7 +520,7 @@ footer{
 .product p{
     padding-top: 1.4em;
     color: #000000;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .product p a{
@@ -532,7 +552,6 @@ footer{
     padding-left: 10em;
     width: 100%;
     box-sizing: border-box;
-    /* align-items: center; */
     height: auto;
 }
 
@@ -561,9 +580,11 @@ footer{
 }
 
 .productDetails h2{
-    font-size: 2.2em;
+font-size: 3em;
     text-transform: uppercase;
     margin-top: 1.7em;
+    font-family: Passion One;
+    font-weight: 400;
 }
 
 .customProduct{
@@ -596,6 +617,11 @@ footer{
     width: 67%;
 }
 
+.displayOrder a{
+    text-decoration: none;
+    color: black;
+} 
+
 .productTypeDetail{
     display: flex;
     align-items: center;
@@ -608,6 +634,9 @@ footer{
 .HumanHair{
     height: 2.8em;
     width: 10em;
+}
+
+.activeHair{
     background-color: #CBA08D;
 }
 
@@ -636,11 +665,14 @@ footer{
     height: 2.8em;
     width: 8.5em;
     background-color: #CBA08D;
+    transition: 1s background-color ease-out;
 }
 
 .moreBundle{
     height: 2.8em;
     width: 5em;
+    transition: 1s background-color ease-out;
+    transition: 1s width ease-out;
 }
 
 
@@ -665,7 +697,7 @@ footer{
 .summary{
     height: 4em;
     width: 35em;
-    margin-top: -5em;
+    margin-top: -4.2em;
     align-self: flex-end;
     justify-self: flex-end;
     background-color: #CBA08D;
@@ -693,6 +725,11 @@ footer{
     margin-bottom: 4em;
 }
 
+.productExit a{
+    text-decoration: none;
+    color: #000000;
+}
+
 .checkOut{
     height: 3em;
     width: 12em;
@@ -702,6 +739,7 @@ footer{
     align-items: center;
     font-weight: 600;
     margin-right: 2em;
+    text-transform: uppercase;
 }
 
 .addCart{
@@ -752,7 +790,9 @@ footer{
 .bagContainer h1{
     margin-bottom: 1em;
     color: #CBA08D;
-    font-size: 4em;
+    font-size: 6em;
+    font-family: Passion One;
+    font-weight: 400;
 }
 
 .orders{
@@ -798,12 +838,14 @@ footer{
 
 .orderTitle h3{
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 3em;
+    font-family: Passion One;
+    font-weight: 400;
 }
 
 .price{
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .orderBody{
@@ -905,9 +947,14 @@ footer{
     margin-bottom: 3em;
 }
 
+.bagSummary a{
+    text-decoration: none;
+    color: #000000;
+}
+
 .summaryCheckout p{
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 /* Order Page */
@@ -919,10 +966,11 @@ footer{
 
 .orderContainer h1{
     color: #CBA08D;
-    font-size: 4em;
+    font-size: 5em;
     margin-top: 1em;
     margin-bottom: 1em;
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 .placeOrderBody{
@@ -994,17 +1042,25 @@ footer{
     text-transform: uppercase;
 }
 
-.orderButton button{
-    padding: 1.3em 2em;
-    text-transform: uppercase;
+.orderForm a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.orderButton {
+    height: 3em;
+    width: 10em;
     border: 2px solid #000000;
-    outline: none;
-    background-color: white;
-    font-weight: 700;
-    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 2em;
-    margin-bottom: 4em;
-    cursor: pointer;
+    margin-bottom: 3em;
+}
+
+.orderButton p{
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 .paymentContainer{
@@ -1069,9 +1125,10 @@ footer{
 .successMassage h1{
     color: #CBA08D;
     text-transform: uppercase;
-    font-size: 4.5em;
+    font-size: 6em;
     line-height: 1em;
-    padding-right: 3em;
+    padding-right: 2em;
+    font-weight: 400;
 }
 
 .successMassage p{
@@ -1107,6 +1164,7 @@ footer{
 
 #commentLabel{
     transform: translateY(310%);
+    transition: 0.2s transform ease-out;
 }
 
 textarea{

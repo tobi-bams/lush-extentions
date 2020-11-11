@@ -1,7 +1,7 @@
 const label = document.getElementById('label');
 const email = document.getElementById('email');
 let extention = document.getElementById("extention");
-let textWord = "Lush Extention";
+let textWord = "SHOP OUR PRODUCTS";
 let translateValue = 0;
 
 label.addEventListener("click", ( ) => {
@@ -10,11 +10,11 @@ label.addEventListener("click", ( ) => {
 
 function textChanger(){
     extention.textContent = textWord;
-    if(textWord == "Lush Extention"){
-        textWord = "Our Lush Extention";
+    if(textWord == "SHOP OUR PRODUCTS"){
+        textWord = "SHOP OUR LUSH EXTENSIONS";
     }
     else{
-        textWord = "Lush Extention";
+        textWord = "SHOP OUR PRODUCTS";
     }
 
 }
